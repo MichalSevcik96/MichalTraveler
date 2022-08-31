@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+html{
+    
+    background: linear-gradient(rgba(227, 225, 225, 0.322),rgba(155, 146, 146, 1.6)),url("img/statue.jpg");
+    background-size: cover;
+    height: 100vh; 
+    background-attachment: fixed;  
+}
+
+.nav-background {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color:rgba(155, 146, 146, 0.346);
+    border-bottom: 1px solid #252524;
+    z-index: 100;
+}
+
+
+
+nav ul {
+    position: fixed;
+    margin-top: 12px;
+    margin-left: 54%;
+    z-index: 200;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a:link,
+nav ul li a:visited{
+    margin-left: 20px;
+    color:#1c1c1a;
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul li a:hover,
+nav ul li a:active{
+    border-bottom: 2px solid #20201c;
+    transition: border-bottom 0.5s;
+}
+
+.description{
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.descriptiontext {
+    max-width: 100%;
+}
+
+
+.headingh1 {
+    margin-bottom: 5%;
+    margin-top: 15%;
+    font-size: 35px;
+    z-index: 200;
+}
+
+.aboutme {
+    margin-bottom: 5%;
+    font-size: 18px;
+    background-color:rgba(155, 146, 146, 0.337);
+    padding:7px;
+    border-radius: 10px;
+}
+
+.btn {
+    font-size: 22px;
+    text-decoration: none;
+    background-color: rgb(155, 146, 146);
+    color: black;
+    padding: 5px 12px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color:rgb(110, 104, 104);
+    transition: background-color 0.3s;
+}
+
+.surf img {
+    max-width: 60%;
+    margin-left: 180px;
+    border-radius: 15px 0 15px 0;
+    opacity: 0.9;
+    box-shadow: 10px 10px 20px rgba(40, 38, 38, 0.718);
+}
+
+
+.text{
+background-color:rgba(155, 146, 146, 0.584);
+max-width: 70%;
+display: block;
+margin: 0 auto;
+}
+
+.h1tours{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px; 
+}
+
+.monkey {
+    max-width: 70%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0;
+    opacity: 0.9;  
+}
+
+.monkey:hover{
+    opacity: 1.0;
+    transform: scale(1.01);
+    transition: opacity 0.5s, transform 0.3s;
+}
+
+.waterfall {
+    max-width: 70%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0;
+    opacity: 0.9;
+}
+
+.waterfall:hover{
+    opacity: 1.0;
+    transform: scale(1.01);
+    transition: opacity 0.5s, transform 0.3s;
+}
+
+.rice {
+    max-width: 70%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0;
+    opacity: 0.9;
+}
+
+.rice:hover{
+    opacity: 1.0;
+    transform: scale(1.01);
+    transition: opacity 0.5s, transform 0.3s;
+}
+
+
+
+.footer{
+    margin-top: 120px;
+    text-align: center;
+    background-color: rgb(117, 112, 112);
+    padding: 2px 0;
+}
+
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: ".";
+}

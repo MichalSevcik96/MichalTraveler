@@ -1,0 +1,47 @@
+@media only screen and (max-width:1150px){
+    .descriptiontext.col.span-1-of-2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .surf.col.span-1-of-2 {
+        width: 100%;
+        margin-top: 10%;
+        margin-left: 0;
+    }
+
+    .surf img{
+        display: block;
+        margin:0 auto;
+    }
+}
+
+@media only screen and (max-width:965px) {
+    nav ul  {
+        margin-left: 23%;
+    }
+}
+
+
+@media only screen and (max-width:765px){
+    .tours {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .tours.col {
+        margin-left: 0;
+    }
+
+    .gallery{
+        margin-top: 10%;
+    }
+}
+
+
+
+@media only screen and (max-width:580px) {
+    nav ul  {
+        margin-left: 0;
+    }  
+}
